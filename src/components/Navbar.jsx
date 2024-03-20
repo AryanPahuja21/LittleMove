@@ -44,7 +44,7 @@ const Navbar = () => {
       </header>
       {isMenuOpen && (
         <div>
-          <nav className="fixed top-0 right-0 left-0 bottom-0 lg:bottom-auto bg-primary">
+          <nav className="fixed top-0 right-0 left-0 bottom-0 lg:bottom-auto bg-primary z-20">
             <div
               className="hidden max-lg:block fixed right-0  px-8 py-4 cursor-pointer"
               onClick={() => {

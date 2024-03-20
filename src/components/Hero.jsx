@@ -29,11 +29,9 @@ const AnimatedItem = ({ direction, children }) => {
 const Hero = () => {
   return (
     <>
-      <main className="flex justify-center bg-neutral-200 pb-14">
+      <main className="flex justify-center pb-14">
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <AnimatedItem direction="up">
-            <img src="/heroimg.png" alt="LittleMove" />
-          </AnimatedItem>
+          
           <div className="flex flex-col items-center justify-center">
             <AnimatedItem direction="up">
               <h1 className="w-fit mx-auto my-5 md:my-10 text-7xl md:text-8xl text-primary font-bold tracking-tighter drop-shadow-[0_3.2px_1.2px_rgba(0,0,0,0.8)]">
@@ -52,7 +50,11 @@ const Hero = () => {
                 </p>
               </AnimatedItem>
             </div>
+            
           </div>
+          <AnimatedItem direction="up">
+            <img src="/heroimg.gif" alt="LittleMove" className="md:ml-28"/>
+          </AnimatedItem>
         </div>
       </main>
       <section className="bg-primary p-10">
