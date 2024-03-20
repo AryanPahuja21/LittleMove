@@ -10,7 +10,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <header className="sm:px-8 px-4 py-5 z-10 w-full bg-primary rounded-b-3xl">
+      <header className="sm:px-8 px-4 py-5 z-10 w-full bg-primary">
         <nav className="flex justify-between items-center max-container">
           <a href="/" className="text-3xl font-bold">
             LittleMove
